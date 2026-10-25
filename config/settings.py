@@ -84,7 +84,7 @@ if not DEBUG and SECRET_KEY == _INSECURE_DEV_KEY:
         "DJANGO_SECRET_KEY must be set in .env when DJANGO_DEBUG is False."
     )
 
-ALLOWED_HOSTS = env_list("DJANGO_ALLOWED_HOSTS", "127.0.0.1,localhost")
+ALLOWED_HOSTS = env_list("DJANGO_ALLOWED_HOSTS", "127.0.0.1","localhost","office-assistant-chatbot.onrender.com")
 
 INSTALLED_APPS = [
     "django.contrib.admin",
