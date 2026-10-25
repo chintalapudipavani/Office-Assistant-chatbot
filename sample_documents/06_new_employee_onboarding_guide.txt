@@ -1,0 +1,43 @@
+# New Employee Onboarding Guide
+Brightwave Solutions Pvt. Ltd.
+Version 1.3 - Effective 1 January 2026
+
+NOTICE: This is a FICTIONAL SAMPLE DOCUMENT created only for testing a software project. It is not a real company policy.
+
+## 1. Before Your First Day
+- Return your signed offer letter to HR.
+- Prepare your original photo ID proof, 2 passport-size photographs, and your bank account details for salary.
+
+## 2. Day 1 Schedule
+- Report to reception at 9:30 AM on your joining date.
+- 10:00 AM to 12:00 PM: HR orientation and document verification.
+- 1:00 PM: welcome lunch with your team.
+- 2:00 PM: IT setup. You receive your laptop, headset and access card, and set up multi-factor authentication.
+
+## 3. First Week Checklist
+- Sign the Non-Disclosure Agreement (NDA).
+- Complete the security awareness training in the LearnHub portal within 5 days.
+- Submit provident fund nomination forms to HR.
+- Meet your onboarding buddy and your manager for a goal-setting talk.
+
+## 4. Mandatory Training
+- Code of Conduct training within 7 days of joining.
+- Data Privacy training within 14 days of joining.
+- Prevention of Sexual Harassment awareness training within 30 days of joining.
+
+## 5. Buddy Program
+- Every new employee is paired with a buddy for the first 90 days.
+- The buddy helps with tools, team introductions and everyday questions.
+
+## 6. Check-ins and Probation
+- Check-ins with your manager take place at 30 days and 60 days.
+- The probation review takes place at 90 days.
+
+## 7. Salary and Benefits
+- Salary is paid on the last working day of each month. Payslips are available in the PeopleDesk portal.
+- Enrol yourself and your dependents in the group health insurance within 30 days of joining.
+
+## 8. Who to Contact
+- HR onboarding coordinator: Meera Nair (fictional), extension 215.
+- IT help desk: extension 100.
+- Office Administration: for access cards and parking permits.

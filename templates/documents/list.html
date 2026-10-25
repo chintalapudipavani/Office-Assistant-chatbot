@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+{% block title %}Documents - Office Assistant{% endblock %}
+{% block content %}
+<div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-3">
+  <h1 class="h4 mb-0">Documents</h1>
+  <div class="d-flex gap-2">
+    <a class="btn btn-primary btn-sm" href="{% url 'document_upload' %}">Upload a PDF</a>
+    <form method="post" action="{% url 'document_rebuild' %}" onsubmit="return confirm('Rebuild the search index from the database? This is safe and may take a moment.');">
+      {% csrf_token %}
+      <button class="btn btn-outline-secondary btn-sm" type="submit">Rebuild index</button>
+    </form>
+  </div>
+</div>
+
+{% if index_error %}
+  <div class="alert alert-danger">{{ index_error }}</div>
+{% elif out_of_sync %}
+  <div class="alert alert-warning">
+    The search index holds {{ index_size }} vectors but the database has {{ ready_chunks }} ready chunks.
+    Click "Rebuild index" to fix this.
+  </div>
+{% else %}
+  <p class="text-muted small">Search index: {{ index_size }} vector{{ index_size|pluralize }} (matches the database).</p>
+{% endif %}
+
+{% if documents %}
+<div class="table-responsive shadow-sm bg-white rounded">
+  <table class="table align-middle mb-0">
+    <thead class="table-light">
+      <tr><th>Title</th><th>File</th><th>Visibility</th><th>Status</th><th>Pages</th><th>Chunks</th><th>Uploaded</th><th></th></tr>
+    </thead>
+    <tbody>
+    {% for d in documents %}
+      <tr>
+        <td class="fw-semibold">{{ d.title }}</td>
+        <td class="small text-muted">{{ d.original_filename }}</td>
+        <td>{% if d.visibility == 'staff' %}<span class="badge text-bg-warning">Staff only</span>{% else %}<span class="badge text-bg-secondary">All employees</span>{% endif %}</td>
+        <td>
+          {% if d.status == 'ready' %}<span class="badge text-bg-success">Ready</span>
+          {% elif d.status == 'failed' %}<span class="badge text-bg-danger">Failed</span>
+          {% else %}<span class="badge text-bg-info">Processing</span>{% endif %}
+          {% if d.error_message %}<div class="small {% if d.status == 'failed' %}text-danger{% else %}text-warning-emphasis{% endif %} mt-1">{{ d.error_message }}</div>{% endif %}
+        </td>
+        <td>{{ d.page_count }}</td>
+        <td>{{ d.chunk_count }}</td>
+        <td class="small">{{ d.uploaded_at|date:"j M Y, H:i" }}<br><span class="text-muted">{{ d.uploaded_by.username|default:"-" }}</span></td>
+        <td>
+          <form method="post" action="{% url 'document_delete' d.id %}" onsubmit="return confirm('Delete &quot;{{ d.title|escapejs }}&quot; and remove it from the search index?');">
+            {% csrf_token %}
+            <button class="btn btn-outline-danger btn-sm" type="submit">Delete</button>
+          </form>
+        </td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% else %}
+  <div class="alert alert-info">No documents yet. <a href="{% url 'document_upload' %}">Upload your first PDF.</a></div>
+{% endif %}
+{% endblock %}

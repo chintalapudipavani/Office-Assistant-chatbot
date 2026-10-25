@@ -1,0 +1,44 @@
+# Office Rules, Meeting Room and Usage Guidelines
+Brightwave Solutions Pvt. Ltd.
+Version 1.5 - Effective 1 January 2026
+
+NOTICE: This is a FICTIONAL SAMPLE DOCUMENT created only for testing a software project. It is not a real company policy.
+
+## 1. Meeting Rooms
+The head office has five bookable meeting rooms:
+- Aurora: seats 4 people (2nd floor)
+- Borealis: seats 6 people (2nd floor)
+- Cirrus: seats 10 people (3rd floor)
+- Delta: seats 16 people (3rd floor)
+- Everest (boardroom): seats 24 people (4th floor)
+
+## 2. Booking Rules
+- Book rooms in the RoomBook calendar.
+- The maximum booking is 2 hours at a time.
+- A booking is released automatically if nobody checks in within 10 minutes of the start time.
+- Cancel at least 15 minutes before the start time if you no longer need the room.
+- The Everest boardroom needs approval from the Office Administration team at least 2 working days in advance.
+- No food is allowed in meeting rooms. Water and covered drinks are fine.
+
+## 3. Meeting Etiquette
+- Share the agenda at least 24 hours before the meeting.
+- Start and finish on time. The default meeting length is 30 minutes.
+- Send minutes and action items within 24 hours after the meeting.
+- Take phone calls in the phone booths, not in open work areas.
+
+## 4. Visitors
+- All visitors must register at reception and show a photo ID.
+- Visitors wear a visitor badge and must be escorted by an employee at all times.
+
+## 5. Building Access and Parking
+- The building is open from 7:30 AM to 9:00 PM. Working after 9:00 PM needs approval from the reporting manager and Office Administration.
+- Two-wheeler parking is free. Car parking needs a permit from Office Administration.
+
+## 6. Desk and Printing Rules
+- Follow the clean desk rule: clear your desk and lock confidential papers at the end of the day.
+- Printing is double-sided by default. Print only when necessary.
+- Smoking is allowed only in the designated area outside the building.
+
+## 7. Fire Safety
+- The fire assembly point is Car Park A, in front of the main entrance.
+- Evacuation drills are held every quarter. Do not use lifts during a fire alarm.

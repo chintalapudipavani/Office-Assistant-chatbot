@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block title %}Not allowed{% endblock %}
+{% block content %}
+<div class="alert alert-warning">
+  <h1 class="h5">You do not have permission to open this page.</h1>
+  <p class="mb-0">Document management is only for authorized staff. Ask an administrator to give your account staff access. <a href="{% url 'chat' %}">Back to chat</a></p>
+</div>
+{% endblock %}

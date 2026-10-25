@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="row align-items-center g-4 py-3">
+  <div class="col-lg-6">
+    <h1 class="display-6 fw-bold mb-3">Ask your office questions in plain English.</h1>
+    <p class="lead text-muted">
+      Leave, attendance, IT support, meeting rooms, travel and reimbursement, onboarding:
+      the assistant reads your company documents and answers with the page it found the answer on.
+      If the documents do not say, it tells you so.
+    </p>
+    <div class="d-flex gap-2 flex-wrap mt-4">
+      {% if user.is_authenticated %}
+        <a class="btn btn-primary btn-lg" href="{% url 'chat' %}">Open the chat</a>
+      {% else %}
+        <a class="btn btn-primary btn-lg" href="{% url 'login' %}">Log in to chat</a>
+        <a class="btn btn-outline-primary btn-lg" href="{% url 'register' %}">Create an account</a>
+      {% endif %}
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <div class="card chat-preview shadow-sm">
+      <div class="card-body">
+        <div class="bubble bubble-user ms-auto mb-2">How many days of annual leave do I get?</div>
+        <div class="bubble bubble-bot mb-2">
+          Fictional sample answer: 18 days per calendar year, and up to 10 unused days can be carried forward.
+          <div class="source-chip mt-2">Source: Leave and Attendance Policy, page 1</div>
+        </div>
+        <div class="small text-muted">Example only. Real answers come from the documents your administrator uploaded.</div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="py-4">
+  <h2 class="h5 mb-3">Things people ask</h2>
+  <div class="row g-3">
+    {% for q in sample_questions %}
+      <div class="col-md-6 col-lg-3"><div class="card h-100"><div class="card-body">{{ q }}</div></div></div>
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}

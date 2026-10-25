@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Log in - Office Assistant{% endblock %}
+{% block content %}
+<div class="row justify-content-center"><div class="col-md-6 col-lg-4">
+  <h1 class="h4 mb-3">Log in</h1>
+  <div class="card shadow-sm"><div class="card-body">
+    <form method="post">
+      {% csrf_token %}
+      {% if form.non_field_errors %}<div class="alert alert-danger py-2">{{ form.non_field_errors.0 }}</div>{% endif %}
+      {% include "includes/form_fields.html" %}
+      <input type="hidden" name="next" value="{{ next }}">
+      <button class="btn btn-primary w-100" type="submit">Log in</button>
+    </form>
+  </div></div>
+  <p class="mt-3 small">New here? <a href="{% url 'register' %}">Create an account</a></p>
+</div></div>
+{% endblock %}

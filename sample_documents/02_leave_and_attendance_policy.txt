@@ -1,0 +1,51 @@
+# Leave and Attendance Policy
+Brightwave Solutions Pvt. Ltd.
+Version 2.4 - Effective 1 January 2026
+
+NOTICE: This is a FICTIONAL SAMPLE DOCUMENT created only for testing a software project. It is not a real company policy and must not be used for real HR decisions.
+
+## 1. Annual Leave
+- Every employee gets 18 days of annual leave per calendar year.
+- Leave accrues at 1.5 days per month. Employees who join during the year receive leave in proportion to the months remaining.
+- Up to 10 unused annual leave days can be carried forward to the next year. Any additional unused days lapse on 31 December.
+- Leave encashment is available only at resignation, for a maximum of 10 days of unused annual leave.
+
+## 2. Sick Leave
+- Every employee gets 10 days of paid sick leave per calendar year.
+- Inform your manager before 10:00 AM on the first day of sick leave.
+- A medical certificate is required if sick leave lasts more than 2 consecutive days.
+
+## 3. Casual Leave
+- Every employee gets 6 days of casual leave per calendar year for urgent personal matters.
+- Casual leave cannot be taken for more than 3 consecutive days.
+
+## 4. Special Leave
+- Maternity leave: 26 weeks of paid leave.
+- Paternity leave: 10 working days, to be taken within 6 months of the child's birth.
+- Marriage leave: 5 days, taken once during employment.
+- Bereavement leave: 5 days on the death of an immediate family member.
+
+## 5. How to Apply for Leave
+- Apply through the PeopleDesk portal.
+- Annual leave of more than 2 days must be requested at least 3 working days in advance.
+- Managers must approve or reject a request within 2 working days.
+- For emergencies, call or message your manager first and then apply in PeopleDesk within 2 working days of returning.
+
+## 6. Attendance Rules
+- Employees mark attendance through the PeopleDesk mobile app or the biometric reader at reception.
+- A grace period of 15 minutes is allowed after 9:30 AM, up to 3 late arrivals per month.
+- From the 4th late arrival in a month, half a day of casual leave is deducted for each late arrival.
+- Working fewer than 8 hours counts as a half day, and working fewer than 4 hours counts as an absence for the day.
+- Being absent for 3 consecutive days without informing the manager leads to a written notice from HR.
+
+## 7. Public Holidays 2026
+The company observes 9 paid public holidays in 2026:
+- 1 January: New Year's Day
+- 26 January: Republic Day
+- 14 March: Spring Festival
+- 1 May: Labour Day
+- 15 August: Independence Day
+- 2 October: Gandhi Jayanti
+- 9 November and 10 November: Festival of Lights
+- 25 December: Christmas Day
+Employees may also choose 2 optional holidays per year from a floating list published by HR in January.

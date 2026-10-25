@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Chat - Office Assistant{% endblock %}
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-3">
+  <h1 class="h4 mb-0">{% if session %}{{ session.title }}{% else %}New chat{% endif %}</h1>
+  <a class="btn btn-outline-primary btn-sm" href="{% url 'chat_new' %}">Start a new chat</a>
+</div>
+
+<div class="card shadow-sm chat-card">
+  <div id="chat-window" class="card-body chat-window" aria-live="polite">
+    <div id="empty-state" class="text-center text-muted py-4">
+      <p class="mb-3">Ask a question about office policies. Try one of these:</p>
+      <div class="d-flex flex-wrap gap-2 justify-content-center">
+        {% for q in sample_questions %}
+          <button type="button" class="btn btn-outline-secondary btn-sm sample-q">{{ q }}</button>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="card-footer bg-white">
+    {% csrf_token %}
+    <div id="chat-error" class="alert alert-danger py-2 d-none" role="alert"></div>
+    <div class="input-group">
+      <textarea id="question" class="form-control" rows="2" maxlength="{{ max_chars }}"
+                placeholder="Type your question. Enter to send, Shift+Enter for a new line."
+                aria-label="Your question"></textarea>
+      <button id="send-btn" type="button" class="btn btn-primary px-4">Send</button>
+    </div>
+    <div class="small text-muted mt-1"><span id="char-count">0</span> / {{ max_chars }}</div>
+  </div>
+</div>
+
+<div id="chat-config" data-ask-url="{% url 'chat_ask' %}" data-session-id="{{ session.id|default:'' }}"
+     data-chat-url="{% url 'chat' %}" class="d-none"></div>
+{{ messages_data|json_script:"initial-messages" }}
+{% endblock %}
+{% block scripts %}<script src="{% static 'js/chat.js' %}"></script>{% endblock %}

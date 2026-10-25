@@ -1,0 +1,53 @@
+# Employee Handbook
+Brightwave Solutions Pvt. Ltd.
+Version 3.1 - Effective 1 January 2026
+
+NOTICE: This is a FICTIONAL SAMPLE DOCUMENT created only for testing a software project. Brightwave Solutions is an imaginary company. Nothing in this document is a real company policy or legal advice.
+
+## 1. About the Company
+Brightwave Solutions Pvt. Ltd. is a fictional software services company founded in 2015. Its head office is on the 4th Floor, Lakeside Tower, Hyderabad. The company has about 350 employees working in engineering, design, quality assurance, human resources, finance and administration.
+
+## 2. Working Hours
+- Standard working hours are Monday to Friday, 9:30 AM to 6:00 PM.
+- The lunch break is one hour, from 1:00 PM to 2:00 PM.
+- Core hours, when everyone is expected to be available, are 11:00 AM to 4:00 PM.
+- The office is closed on Saturdays and Sundays.
+
+## 3. Dress Code
+- Business casual dress is expected from Monday to Thursday.
+- Friday is casual day. Jeans and sneakers are allowed.
+- Clothing with offensive slogans is not permitted at any time.
+- Employees meeting clients must follow business formal dress.
+
+## 4. Code of Conduct
+- Treat every colleague, client and visitor with respect. Harassment and discrimination of any kind are not tolerated.
+- Keep company and client information confidential, during and after employment.
+- Declare any conflict of interest to your manager and HR in writing.
+- Gifts from clients or vendors worth more than INR 2,000 must be reported to HR.
+
+## 5. Probation, Confirmation and Notice Period
+- New employees serve a probation period of 3 months (90 days).
+- Confirmation is decided by the reporting manager and HR at the end of probation.
+- The notice period is 30 days during probation and 60 days after confirmation.
+- A resignation must be submitted in writing to the reporting manager with a copy to HR.
+
+## 6. Performance Reviews
+- Performance reviews are held twice a year, in June and in December.
+- Ratings use a scale of 1 to 5, where 5 means outstanding.
+- Employees must complete their self-assessment 5 working days before the review meeting.
+
+## 7. Working From Home
+- After confirmation, employees may work from home up to 2 days per week with their manager's approval.
+- Employees on probation must work from the office.
+- Employees working from home must stay reachable on chat and attend all scheduled meetings.
+- Employees working from home must connect through the company VPN (see the IT Support and Password Security Policy).
+
+## 8. Employee Benefits
+- Group health insurance of INR 500,000 per employee per year, covering the employee, spouse and up to 2 children.
+- An annual learning budget of INR 25,000 per employee for courses and certifications, with manager approval.
+- Subsidised lunch in the cafeteria: employees pay INR 60 per meal.
+- Provident fund contributions as required by applicable law.
+
+## 9. Grievances and Contacts
+- HR Helpdesk: hr@brightwave.example, extension 200. The HR Helpdesk replies within 2 working days.
+- Harassment complaints can be made in confidence to the Internal Committee at ic@brightwave.example.

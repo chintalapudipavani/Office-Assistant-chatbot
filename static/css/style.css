@@ -1,0 +1,32 @@
+:root {
+  --ink: #1f2933;
+  --brand: #0f5c63;
+  --brand-dark: #0b4348;
+  --surface: #f4f6f7;
+  --user-bubble: #0f5c63;
+  --bot-bubble: #ffffff;
+}
+body { background: var(--surface); color: var(--ink); }
+.app-navbar { background: var(--brand-dark); }
+.btn-primary { --bs-btn-bg: var(--brand); --bs-btn-border-color: var(--brand);
+  --bs-btn-hover-bg: var(--brand-dark); --bs-btn-hover-border-color: var(--brand-dark);
+  --bs-btn-active-bg: var(--brand-dark); --bs-btn-active-border-color: var(--brand-dark); }
+.btn-outline-primary { --bs-btn-color: var(--brand); --bs-btn-border-color: var(--brand);
+  --bs-btn-hover-bg: var(--brand); --bs-btn-hover-border-color: var(--brand); }
+a { color: var(--brand); }
+.app-footer { border-top: 1px solid #dde3e6; background: #fff; }
+
+.chat-window { height: 55vh; min-height: 320px; overflow-y: auto; background: var(--surface); }
+.bubble { max-width: 85%; padding: .65rem .9rem; border-radius: .9rem; width: fit-content; word-wrap: break-word; }
+.bubble-user { background: var(--user-bubble); color: #fff; border-bottom-right-radius: .25rem; margin-left: auto; }
+.bubble-bot { background: var(--bot-bubble); border: 1px solid #dde3e6; border-bottom-left-radius: .25rem; }
+.bubble-bot.is-error { border-color: #dc3545; background: #fdf0f1; }
+.bubble-bot.not-found { border-color: #e0a800; background: #fffaf0; }
+.bubble p:last-child, .bubble ul:last-child { margin-bottom: 0; }
+.source-chip { display: inline-block; font-size: .8rem; background: #e6f0f1; color: var(--brand-dark);
+  border-radius: .5rem; padding: .15rem .5rem; margin: .15rem .25rem 0 0; }
+.sources-label { font-size: .75rem; color: #6b7780; margin-top: .5rem; }
+.typing { color: #6b7780; font-style: italic; }
+.chat-preview { border-radius: 1rem; }
+textarea#question { resize: none; }
+@media (max-width: 576px) { .bubble { max-width: 95%; } .chat-window { height: 50vh; } }

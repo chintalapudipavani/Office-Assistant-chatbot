@@ -1,0 +1,43 @@
+# Travel and Reimbursement Policy
+Brightwave Solutions Pvt. Ltd.
+Version 2.0 - Effective 1 January 2026
+
+NOTICE: This is a FICTIONAL SAMPLE DOCUMENT created only for testing a software project. It is not a real company policy.
+
+## 1. Approval Before Travel
+- Get your manager's approval in the ExpenseHub portal before booking any business travel.
+- International travel also needs approval from the department head and the Finance team, at least 14 days before departure.
+
+## 2. Flights
+- Economy class is required for flights shorter than 6 hours.
+- Business class is allowed only for flights longer than 8 hours and needs Vice President approval.
+- Book domestic flights at least 7 days in advance.
+
+## 3. Hotels
+- The maximum hotel rate is INR 7,000 per night in Mumbai, Delhi and Bengaluru.
+- The maximum hotel rate in all other cities is INR 4,500 per night.
+- Minibar charges, laundry and in-room entertainment are not reimbursed.
+
+## 4. Meals and Local Travel
+- The daily meal allowance is INR 1,200 for domestic travel and USD 60 for international travel.
+- Local taxi or cab rides are reimbursed with receipts.
+- Use of a personal vehicle is reimbursed at INR 9 per km for cars and INR 4 per km for two-wheelers.
+- Client entertainment is reimbursed up to INR 2,500 per person, with prior approval.
+
+## 5. Travel Advance
+- Employees may request a travel advance of up to 70 percent of the estimated trip cost.
+- The advance must be settled within 7 days of returning from the trip.
+
+## 6. Submitting Expense Claims
+- Submit claims in ExpenseHub within 30 days of the expense or of returning from the trip.
+- A receipt is required for every expense above INR 500.
+- Claims submitted late need Vice President approval.
+- Managers approve claims up to INR 10,000. Claims above INR 10,000 also need department head approval.
+- Approved claims are paid by bank transfer within 10 working days.
+
+## 7. Items That Are Not Reimbursed
+- Alcohol, traffic fines, personal entertainment and personal shopping.
+- Upgrades that were not approved in advance.
+
+## 8. Home Internet Allowance
+- Employees eligible to work from home receive an internet allowance of INR 800 per month, paid with salary.

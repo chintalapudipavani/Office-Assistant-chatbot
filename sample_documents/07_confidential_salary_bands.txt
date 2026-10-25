@@ -1,0 +1,14 @@
+# Confidential Salary Bands (HR Staff Only)
+Brightwave Solutions Pvt. Ltd.
+
+NOTICE: This is a FICTIONAL SAMPLE DOCUMENT created only for testing a software project. It exists to test that "Staff only" documents are hidden from ordinary employees. The numbers are invented.
+
+## 1. Annual Salary Bands for 2026
+- Level L1, Associate Software Engineer: INR 400,000 to 600,000 per year.
+- Level L2, Software Engineer: INR 600,000 to 900,000 per year.
+- Level L3, Senior Software Engineer: INR 900,000 to 1,400,000 per year.
+- Level L4, Engineering Manager: INR 1,400,000 to 2,200,000 per year.
+
+## 2. Handling of This Document
+- This document is confidential and is for HR staff only.
+- Do not share salary bands with employees who are not in HR.

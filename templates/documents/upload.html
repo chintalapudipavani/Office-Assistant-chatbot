@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}Upload - Office Assistant{% endblock %}
+{% block content %}
+<div class="row justify-content-center">
+  <div class="col-lg-6">
+    <h1 class="h4 mb-3">Upload a PDF document</h1>
+    <div class="card shadow-sm"><div class="card-body">
+      <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.non_field_errors }}
+        {% include "includes/form_fields.html" %}
+        <button class="btn btn-primary" type="submit" id="upload-btn">Upload and index</button>
+        <a class="btn btn-link" href="{% url 'document_list' %}">Cancel</a>
+        <div class="form-text mt-2">Processing reads the text, splits it into chunks and builds search vectors. Large files can take a minute. The first upload also downloads the embedding model.</div>
+      </form>
+    </div></div>
+  </div>
+</div>
+{% endblock %}
+{% block scripts %}
+<script>
+  document.querySelector("form").addEventListener("submit", function () {
+    var b = document.getElementById("upload-btn"); b.disabled = true; b.textContent = "Processing...";
+  });
+</script>
+{% endblock %}
